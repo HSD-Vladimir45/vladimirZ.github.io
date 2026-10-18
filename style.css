@@ -1,0 +1,58 @@
+body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin: 20px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+      display: grid;
+      grid-template-columns: 180px auto;
+      gap: 8px;
+      align-items: center;
+      max-width: 800px;
+}
+label {
+       text-align: right;
+       padding-right: 10px;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+            font-size: 14px;
+            padding: 2px;
+            border: 1px solid #7a7a7a;
+}
+
+.short-input {
+              width: 80px;
+}
+        
+.medium-input {
+               width: 200px;
+}
+
+.long-input {
+             width: 400px;
+}
+
+.radio-group {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+}
+
+textarea {
+          width: 500px;
+          height: 100px;
+          resize: vertical;
+}
+
+.select-group {
+               display: flex;
+               gap: 5px;
+}

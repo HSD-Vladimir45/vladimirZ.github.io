@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+ol {
+    background-color: #ffffff;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+ol li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.custom-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.custom-link:hover {
+    color: #004499;
+    text-decoration: underline;
+}

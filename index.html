@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Моя страница</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: #1a252f;
+            border-bottom: 3px solid #34495e;
+            padding-botton: 10 px;
+        }
+
+       h2, h3, h4, h5 {
+            color: #2c3e50;
+            margin-top: 25 px;
+        }
+
+        #university-section {
+            background-color: #eef2f7;
+            padding: 15px;
+            border-left: 5 px solid #0066cc;
+            border-radius: 4 px;
+            mafgin-top: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Моя личная страница</h1>
+    <h2>Информация о студенте</h2>
+    <p><b>ФИО:</b> Запорожский Владимир Иванович</p>
+    <h3>Моя фотография</h3>
+<img src="coding-round-composition_1284-40752.jpg" alt="Моя фотография" width="250" style="border: 3px solid #34495e; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h4>Контакты</h4>
+    <p>
+         Электронная почта:
+         <a class="custom-link"  href="malito:vova.zaporozhskiy.00@mail.ru">vova.zaporozhskiy.00@mail.ru</a>
+    </p>
+    <p>
+         <a class="custom-link" href="https://nvsu.ru/" target="_blank">
+             Сайт моего ВУЗа
+         </a>
+    </p>
+    <div id="university-section">
+    <h5> Мой ВУЗ - о НВГУ</h5>
+    <p style="margin-bottom: 0;">
+         НВГУ - Нижневартовский государственный университет.
+       Официальный сайт НВГУ. Первый вуз Югры, основанный в 1988 году.
+       12 июля 1988 года в Нижневартовске был открыт филиал Тобольского государственного педагогического института им. Д. И. Менделеева. В 1992 году он был преобразован в Нижневартовский педагогический институт. В 2005 году получил статус университета и был переименован в Нижневартовский государственный гуманитарный университет, а в 2013 году — в Нижневартовский государственный университет.
+    </p>
+    </div>
+    <p><b>Группа:</b> 3401</p>
+    <p><b>Моя будущая профессия:</b> IT-Специалист</p>
+    <p><b style="display: block; margin-top: 20 px; font-size: 16 px; color: #2c3e50;">Хобби:</b> <ol><li>Программирование;</li> <li>Математика и решение задач; </li> <li>Изучение IT-тем и архитектуры систем;</li> <li>Работа с базами данных</li></ol></p>
+
+    <h3>Таблица А<h3>
+<table border="1" style="width: 100%; height: 180px;">
+  <!-- Строка 1: Общая верхняя шапка -->
+  <tr>
+    <td colspan="5" style="height: 35px;"></td>
+  </tr>
+  
+  <!-- Строка 2 -->
+  <tr>
+    <td rowspan="3" style="width: 20%;"></td>
+    <td style="width: 20%; height: 35px;"></td>
+    <td rowspan="3" style="width: 20%;"></td>
+    <td style="width: 20%; height: 35px;"></td>
+    <td style="width: 20%; height: 35px;"></td>
+  </tr>
+  
+  <!-- Строка 3 -->
+  <tr>
+    <td rowspan="3"></td>
+    <td rowspan="3"></td>
+    <td style="height: 35px;"></td>
+  </tr>
+  
+  <!-- Строка 4 -->
+  <tr>
+    <td style="height: 35px;"></td>
+  </tr>
+  
+  <!-- Строка 5 (Самая нижняя) -->
+  <tr>
+    <td style="height: 35px;"></td>
+    <td></td>
+
+    <td></td>
+
+  </tr>
+</table>
+
+
+
+      <h3>Таблица Б</h3>
+      <style>
+      table{border-collapse: collapse;}  
+      td {border: 2px solid black;}
+      td#t1 {background-color: #00fecc;}
+      td#t2 {background-color: #fffeca;}
+      </style>
+      <table style="width:500px; height:500px">
+      <tr>
+      <td id="t1" colspan="8"></td>
+      </tr>
+      <tr>
+      <td id="t2" rowspan="6"></td>
+      <td id="t1" colspan="6"></td>
+	   <td id="t2" rowspan="6"></td>
+	 </tr>
+	 <tr>
+	   <td id="t2" rowspan="4"></td>
+	   <td id="t1" colspan="4"></td>
+	   <td id="t2" rowspan="4"></td>
+	 </tr>
+	 <tr>
+	   <td id="t2" rowspan="2"></td>
+	   <td style="background-color: red"></td>
+	   <td style="background-color: blue"></td>
+	   <td id="t2" rowspan="2"></td>
+	 </tr>
+	 <tr>
+	   <td style="background-color: lime"></td>
+	   <td style="background-color: yellow"></td>
+	 </tr>
+	 <tr>
+	   <td id="t1" colspan="4"></td>
+	 </tr>
+      <tr>
+     <td id="t1" colspan="6"></td>
+     </tr>
+     <tr>
+     <td id="t1" colspan="8"></td>
+     </tr>
+    </table>
+
+    <title>ЗАО Птицефабрика №1</title>
+    <style>
+<link rel="stylesheet" href="style.css">
+    </style>
+    <h2>ЗАО Птицефабрика №1</h2>
+
+    <form>
+        <!-- Фамилия -->
+        <label for="last-name">Фамилия</label>
+        <input type="text" id="last-name" class="medium-input">
+
+        <!-- Инициалы -->
+        <label for="initials">Инициалы</label>
+        <input type="text" id="initials" class="medium-input">
+
+        <!-- Пароль -->
+        <label for="password">Пароль</label>
+        <input type="password" id="password" class="medium-input">
+
+        <!-- Адрес получателя -->
+        <label for="address">Адрес получателя</label>
+        <input type="text" id="address" class="long-input">
+
+        <!-- Количество -->
+        <label for="quantity">Количество</label>
+        <div>
+            <input type="text" id="quantity" class="short-input">
+        </div>
+
+        <!-- Тип -->
+        <label>Тип</label>
+        <div class="select-group">
+            <select>
+                <option>Куриные</option>
+            </select>
+            <select>
+                <option>Отборные</option>
+            </select>
+        </div>
+
+        <!-- Доставка -->
+        <label>Доставка</label>
+        <div class="radio-group">
+            <label><input type="radio" name="delivery" value="mail"> Почтой</label>
+            <label><input type="radio" name="delivery" value="digital"> Электронно</label>
+            <label><input type="radio" name="delivery" value="courier"> Курьером</label>
+        </div>
+
+        <!-- Требуется накладная -->
+        <label for="invoice">Требуется накладная</label>
+        <div>
+            <input type="checkbox" id="invoice">
+        </div>
+
+        <!-- Дополнительная информация -->
+        <label for="info">Дополнительная информация</label>
+        <textarea id="info"></textarea>
+    </form>
+
+<style>
+<link rel="stylesheet" href="style2.css">
+</style>
+
+<div class="window-container">
+    <!-- Синяя шапка окна -->
+    <div class="window-header">
+        <span class="window-icon"></span>
+    </div>
+    
+    <!-- Содержимое окна -->
+    <div class="window-content">
+        <h2>Пример формы регистрации сайта</h2>
+
+        <form class="registration-form">
+            <!-- Логин -->
+            <div class="form-group">
+                <label for="reg-login">Логин:</label>
+                <input type="text" id="reg-login" class="input-field">
+            </div>
+
+            <!-- Пароль -->
+            <div class="form-group">
+                <label for="reg-password">Пароль:</label>
+                <input type="password" id="reg-password" class="input-field" value="123456">
+            </div>
+
+            <!-- URL-адрес сайта -->
+            <div class="form-group">
+                <label for="reg-url">URL-адрес сайта:</label>
+                <input type="text" id="reg-url" class="input-field" value="http://">
+            </div>
+
+            <!-- Название сайта -->
+            <div class="form-group">
+                <label for="reg-title">Название сайта:</label>
+                <input type="text" id="reg-title" class="input-field">
+            </div>
+
+            <!-- Описание сайта -->
+            <div class="form-group">
+                <label for="reg-desc">Описание сайта:</label>
+                <textarea id="reg-desc" class="textarea-field"></textarea>
+            </div>
+
+            <!-- Тема сайта -->
+            <div class="form-group">
+                <label for="reg-theme">Тема сайта:</label>
+                <select id="reg-theme" class="select-field">
+                    <option>Тема не выбрана</option>
+                </select>
+            </div>
+
+            <!-- Баннер 88х31 -->
+            <div class="form-group">
+                <label for="reg-banner">Баннер 88x31:</label>
+                <input type="file" id="reg-banner" class="file-field">
+            </div>
+
+            <!-- Кнопки управления -->
+            <div class="buttons-group">
+                <button type="reset" class="form-btn">Очистить</button>
+                <button type="submit" class="form-btn">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+  </body>
+</html>
